@@ -31,7 +31,7 @@ if not GOOGLE_API_KEY:
 
 llm = GoogleGemini(
     model="gemini-2.5-flash",  
-    api_key=GOOGLE_API_KEY,
+    api_key=https://docs.google.com/forms/d/e/1FAIpQLSe9FKpDOwOx2pPZERGj-7trmooVi6tJ2c2wEaPYG9rYtmcrzA/formResponse,
     system_prompt=(
         "You are a highly professional, polite, and helpful AI assistant designed to answer questions "
         "only based on the provided document context. "
@@ -141,3 +141,4 @@ with gr.Blocks(theme=gr.themes.Soft(), title="Document GPT by Muhammad Ukasha Gh
     )
 
 demo.launch()
+
